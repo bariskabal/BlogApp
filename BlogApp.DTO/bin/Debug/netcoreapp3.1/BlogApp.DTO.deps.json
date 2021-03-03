@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BlogApp.DTO/1.0.0": {
+        "dependencies": {
+          "BlogApp.Entity": "1.0.0"
+        },
+        "runtime": {
+          "BlogApp.DTO.dll": {}
+        }
+      },
+      "BlogApp.Entity/1.0.0": {
+        "runtime": {
+          "BlogApp.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlogApp.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogApp.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

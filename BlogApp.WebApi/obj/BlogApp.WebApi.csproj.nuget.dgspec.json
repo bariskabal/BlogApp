@@ -1,0 +1,368 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.WebApi\\BlogApp.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Business\\BlogApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Business\\BlogApp.Business.csproj",
+        "projectName": "BlogApp.Business",
+        "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Business\\BlogApp.Business.csproj",
+        "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DataAccess\\BlogApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DataAccess\\BlogApp.DataAccess.csproj"
+              },
+              "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DTO\\BlogApp.DTO.csproj": {
+                "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DTO\\BlogApp.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.6, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DataAccess\\BlogApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DataAccess\\BlogApp.DataAccess.csproj",
+        "projectName": "BlogApp.DataAccess",
+        "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DataAccess\\BlogApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DTO\\BlogApp.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DTO\\BlogApp.DTO.csproj",
+        "projectName": "BlogApp.DTO",
+        "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DTO\\BlogApp.DTO.csproj",
+        "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj",
+        "projectName": "BlogApp.Entity",
+        "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.WebApi\\BlogApp.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.WebApi\\BlogApp.WebApi.csproj",
+        "projectName": "BlogApp.WebApi",
+        "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.WebApi\\BlogApp.WebApi.csproj",
+        "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Business\\BlogApp.Business.csproj": {
+                "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.Business\\BlogApp.Business.csproj"
+              },
+              "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DTO\\BlogApp.DTO.csproj": {
+                "projectPath": "C:\\Users\\baris\\OneDrive\\Masaüstü\\AspNet\\Blog\\BlogApp\\BlogApp.DTO\\BlogApp.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
